@@ -1,0 +1,109 @@
+h1{
+  background-color: #fafafa;
+  content: "";
+  text-align: center;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+.fllogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+header{
+    position: relative;
+    background-image: url(floridabackground.jpg);
+    background-size:  cover;
+    background-position: contain;
+}
+* {
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(13, 65, 59);
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: coral;
+}
+.navbar a:active{
+    background-color: aqua;
+}
+.section{
+    width: 70%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height:600px;
+    overflow-y: auto;
+    background-color: beige;
+}
+.section_p{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: medium;
+    text-wrap: wrap;
+}
+.table{
+    margin-left: 50%;
+    margin-top: 100px;
+
+}
+.aside{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 600px;
+    overflow-y: auto;
+    background-color: rgb(129, 110, 58);
+    list-style: none;
+}
+.paside{
+    font-size: small;
+}
+footer {
+    clear: both;
+    background-color: rgb(13, 65, 59);
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    background-color: coral;
+}
+.miamijpg{
+    width: 50%;
+}
+.centered{
+    text-align: center;
+}
